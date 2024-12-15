@@ -1,0 +1,59 @@
+body {
+  background-image: url("robot.jpg");
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-position: center; /* Center the image */
+  font-family:"Lucida Console", "Courier New", monospace;
+  color:#0b132b;
+}
+
+h1{
+  text-align: center;
+  size: 160px; 
+  font-family:"Lucida Console", "Courier New", monospace;
+  animation: bounceInDown;
+  animation-duration: 4s;
+  color: #72efdd;
+  background-color: #0b132b;
+}
+
+h2 {
+  size: 100px; 
+  font-family:"Lucida Console", "Courier New", monospace;
+  text-align: center;
+}
+
+p {
+  font-family:"Lucida Console", "Courier New", monospace;
+  color:#0b132b;
+  text-align: center;
+  size: 70px;
+}
+
+img {
+  border: solid 5px #0b132b;
+  opacity: 0.95;
+  border-radius: 30px;
+  box-shadow: 5px 5px 15px rgba(30, 10, 20, 1.0);
+  max-width: 70%;
+}
+
+/*CSS OF THE CONTAINER*/
+.container {
+  text-align: left;
+  background-color: #56cfe1; 
+  margin: auto; 
+  border: 7px solid #0b132b; 
+  border-radius: 30px; 
+  padding: 30px; 
+  box-shadow: 5px 5px 15px rgba(30, 10, 20, 1.0);
+  opacity: 0.95;
+  animation: bounceInLeft;
+  animation-duration: 2s;
+}
+
+/*CSS OF NAVBAR*/
+.navbar {
+color: #0b132b;
+background-color: #56cfe1;
+}
